@@ -1,96 +1,190 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A single page portfolio for Inderpreet Singh, Guru Nanak Dev University, Amritsar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
     <meta name="author" content="Inderpreet Singh">
-
-    <title>It is the Thought Process that matters... Inderpreet Singh</title>
-
-    <!-- Bootstrap Core CSS -->
+    <title>Home | Inderpreet Singh</title>
+	
+	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
 
-</head>
+<body class="homepage">
 
-<body>
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  google.com/+InderpreetSingh</p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                       <div class="social">
+                            <ul class="social-share">
+                                <li><a href="http://facebook.com/dr.inderpreet"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="http://twitter.com/ip_v1"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://in.linkedin.com/in/inderpreets"><i class="fa fa-linkedin"></i></a></li> 
+                                <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+                            </ul>
+                            <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top">The Embedded Code</a>
-            </li>
-            <li>
-                <a href="#top">Home</a>
-            </li>
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#domain-knowledge">Domain Knowledge</a>
-            </li>
-			<li>
-                <a href="#quadcopter">The DIY Quadcopter Project</a>
-            </li>
-			<li>
-                <a href="#iotlights">The IoT Holiday Lights Project</a>
-            </li>
-			<li>
-                <a href="#airsensor">The Air Quality Sensor Project</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#links">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Me</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-item.html">Blog Single</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://embeddedcode.wordpress.com">Blog</a></li> 
+                        <li><a href="contact-us.html">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
 
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
 
-    <!-- Header -->
-    <header id="top" class="header">
-    <!--
-        <div class="text-top-links">
-            <p>Connect with me to collaborate...<a href="#links">Click Here</a></p>
-        </div>
-    -->
-        <div class="text-vertical-center">
-            <h1>Product Design, Growth Hacking, Training</h1>
-            <h3>Inderpreet Singh</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Explore More...</a>
-        </div>
-    </header>
+                <div class="item active" style="background-image: url(images/slider/bg.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Product Design</h1>
+                                    <h2 class="animation animated-item-2">From Idea to Concept to Production...</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
 
-    <!-- Page Content -->
+                            <!--
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img1.png" class="img-responsive">
+                                </div>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Growth Hacking</h1>
+                                    <h2 class="animation animated-item-2">Use the Internet to your advantage...</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+
+                            <!--
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img2.png" class="img-responsive">
+                                </div>
+                            </div>
+                            -->
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Training</h1>
+                                    <h2 class="animation animated-item-2">Add skills to your work-force...</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <!--
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive">
+                                </div>
+                            </div>
+                        -->
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section><!--/#main-slider-->
+
+<!-- Page Content -->
     
     <section id="about">
     <div class="container">
-        <hr>
+        <div class="center wow fadeInDown">
+            <h2>About Inderpreet Singh</h2>
+        </div>
         <div class="row">
-            <div class="col-sm-8">
-                <h2>About Inderpreet Singh</h2>
+            <div class="col-sm-8 wow fadeInDown">
+                
                 <p class="lead" align="justify">I design things, I make them, I reinvent them and teach them. #DIY, #research, #IoT, #embedded, #RaspberryPi, #Arduino, #EEE. </br>I have been working with electronics for over two decades and have helped establish research labs and products for industrial automation in India. I have a passion to create something new and improve the existing world and technology is my tool. I offer the following commercial services.</br>
                 </br><b>Product Design:</b> From Idea to concept to production, I can help you realize your dream project. </br>
                 </br><b>Growth Hacking:</b> Use the in ternet to your advantage. I can help you get to your target audience.</br>
@@ -120,8 +214,7 @@
 
                         <a href="http://www.element14.com/community/people/ipv1/"><img title="Farnell" src="./img/e14.jpg" alt="Element14" width="60" height="35" /></a>
 
-                        <!-- Element14 and instructables-->
-                        <a class="twitter-timeline" href="https://twitter.com/ip_v1" data-widget-id="618088381939978245">Tweets by @ip_v1</a>
+                        <a class="twitter-timeline" href="https://twitter.com/ip_v1" data-widget-id="680338897595858944">Tweets by @ip_v1</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
                     </div>
@@ -132,507 +225,460 @@
     </div>
     </section>
 
-    <section id="domain-knowledge">
+<!--
+    <section id="feature" >
         <div class="container">
-            <div class="row text-center">
-                <h2>Domain Knowledge</h2>
-                <hr class="small">
-                <!-- Core Competencies -->
-                <h4>Core Competencies</h4>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Complete System Design</li>
-                            <li>System Integration</li>
-                            <li>UX Design</li>
-                            <li>Project Planning</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Microcontroller Programming</li>
-                            <li>Wired &amp; RF Communication</li>
-                            <li>Analog Design</li>
-                            <li>Low Power Design</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Web Apps</li>
-                            <li>3D Design</li>
-                            <li>Verbal Communication</li>
-                            <li>Written Communication</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Team Management</li>
-                            <li>Algorithms &amp; Protocols</li>
-                            <li>Research</li>
-                        </ul>
-                    </div>
-                </div>
+           <div class="center wow fadeInDown">
+                <h2>Features</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
-            <!-- Programming -->
-            <div class="row text-center">
-                <div>
-                    <h4>Programming</h4>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Embedded C</li>
-                            <li>C, C++, C Sharp</li>
-                            <li>MS Visual Studio C++</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>BASH Scripting</li>
-                            <li>Python 2.7</li>
-                            <li>NodeJS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Verilog HDL</li>
-                            <li>OpenCV</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-bullhorn"></i>
+                            <h2>Fresh and Clean</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div> --> <!--/.col-md-4-->
+<!--
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-comments"></i>
+                            <h2>Retina ready</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div> --> <!--/.col-md-4-->
+<!--
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-cloud-download"></i>
+                            <h2>Easy to customize</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div> --> <!--/.col-md-4-->
+<!--                
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-leaf"></i>
+                            <h2>Adipisicing elit</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div> --> <!--/.col-md-4-->
+<!--
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-cogs"></i>
+                            <h2>Sed do eiusmod</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div> --> <!--/.col-md-4-->
+<!--
+                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <i class="fa fa-heart"></i>
+                            <h2>Labore et dolore</h2>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                        </div>
+                    </div> --> <!--/.col-md-4-->
+ 
+ <!--               </div> --> <!--/.services-->
+ <!--           </div> --> <!--/.row-->    
+ <!--       </div> --> <!--/.container-->
+ <!--   </section> --> <!--/#feature-->
 
-            <!-- Design Tools and IDEs -->
-            <div class="row text-center">    
-                <div>
-                    <h4>Design Tools and IDEs</h4>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>MBed</li>
-                            <li>Arduino</li>
-                            <li>Kinetis Design Studio</li>
-                            <li>Simplicity Studio</li>
-                            <li>Keil uVision</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Code Composer Studio</li>
-                            <li>Altera Quartus II</li>
-                            <li>NIOS II IDE</li>
-                            <li>ModelSim</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Xilinx ISE</li>
-                            <li>Autodesk Inventor</li>
-                            <li>Autodesk Fusion 360</li>
-                            <li>Sketchup</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Cadsoft Eagle</li>
-                            <li>OrCad</li>
-                            <li>MATLAB</li>
-                            <li>NI LabView</li>
-                            <li>LTSpice/PSPICE</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Hardware -->
-            <div class="row text-center">
-                <div>
-                    <h4>Hardware</h4>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>8051(EFM8, AT89X51)</li>
-                            <li>AVR/Arduino</li>
-                            <li>TI MSP430</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-
-                            <li>Cortex M0(EFM32)</li>
-                            <li>Cortex M4(CC3200, K64)</li>
-                            <li>NIOS II Softcore Processor</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Raspberry Pi</li>
-                            <li>BeagleBone Black</li>
-                            <li>Intel Galileo</li>
-                            <li>Intel Edison</li>              
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>ESP8266</li>
-                            <li>CC3100</li>
-                            <li>eRIC/XBEE/Si4455</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Operating Systems -->
-            <div class="row text-center">
-                <div>
-                    <h4>Operating Systems/RTOS</h4>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>MS DOS</li>
-                            <li>Windows</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Linux</li>
-                            <li>Mac OS X</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>RTX51</li>
-                            <li>FreeRTOS</li>              
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Oscilloscopes -->
-            <div class="row text-center">
-                <div>
-                    <h4>Operating Systems/RTOS</h4>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Analog and Digital Storage Oscilloscopes</li>
-                            <li>MDO/MSO</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>Logic analyzers</li>
-                            <li>DAQ</li>
-                            <li>Digital Multimeters</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>NI PXLe based Vector Signal Transceivers</li>
-                            <li>Agilent Vector Network Analyzers</li>              
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Protocols -->
-            <div class="row text-center">
-                <div>
-                    <h4>Protocols</h4>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>I2C/TWI</li>
-                            <li>ModBus/RS485</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>RS232/USART</li>
-                            <li>CAN</li>
-                            <li>MQTT</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-5 col-md-3">
-                    <div>
-                        <ul class="list-inline-left">
-                            <li>802.11(Wi-Fi)</li>
-                            <li>802.15.4(Zigbee)</li>
-                            <li>Bluetooth Low Energy</li>              
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <hr class="small">
-        </div>
-    </section>
-	
-    <!-- skills -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="skills" class="services bg-primary">
+    <section id="recent-works">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>My Work n Play</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-pencil fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Embedded Code</strong>
-                                </h4>
-                                <p>My little place on the Internet, my blog is where my writtings go. I write about all kinds of stuff from reviews, project logs and everything else and hope that the details help others.</p>
-                                <a href="http://embeddedcode.wordpress.com" class="btn btn-light">Visit the Blog</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cogs fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Projects</strong>
-                                </h4>
-                                <p>Ideas pop in my head on and off and to satisfy that inner craving, I make projects. Here is a list of the more popular ones.</p>
-                                <a href="#quadcopter" class="btn btn-light">See the list</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Reviews</strong>
-                                </h4>
-                                <p>There are a multitude of ways by which I have come across a multitude of gadgets and electronic equipment and kits for testing and projects. As a value addition, I have done reviews to add value and have a better understanding of the capabilities.</p>
-                                <a href="https://embeddedcode.wordpress.com/category/reviews-teardowns/" class="btn btn-light">See More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-camera fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Tutorials</strong>
-                                </h4>
-                                <p>In order to help and guide other builders and DIY people, I posted a series of tutorials on hardare and software platforms.</p>
-                                <a href="https://embeddedcode.wordpress.com/category/tutorials-guides/" class="btn btn-light">See More</a>
-                            </div>
+            <div class="center wow fadeInDown">
+                <h2>Recent Works</h2>
+                <p class="lead">Here are some of my recent Projects from various activities. These are all done under an opensource license and the commercial projects kept a secret in keeping with agreement with manufacturers.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Quadcopter Project</a> </h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme</a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme</a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Business theme </a></h3>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>   
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#recent-works-->
+
+    <section id="services" class="service-item">
+	   <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Services Offered</h2>
+                <p class="lead">As a freelancer I offer a variety of commercial Services. For more information on me, please take a look at my portfolio.</p>
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
 
-	<!-- Callout -->
-    <!--
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>"Talent hits a target no one else can hit; </br>Genius hits a target no one else can see." </br></h1><h3>- Arthur Schopenhauer.</h3></br><h2>Below is a list of the projects I have done.</h2>
-        </div>
-    </aside>
-	-->
+            <div class="row">
 
-	<!-- Callout quadcopter -->
-    <section id="quadcopter">
-	<aside class="callout_quad">
-        <div class="text-vertical-center">
-            <h2>The DIY Quadcopter Project!</h2></br><h3>A project where I go through the theory and steps of making a DIY Aerial Vehicle.</h3> 
-			<a href="https://embeddedcode.wordpress.com/the-diy-quadcopter-project/" class="btn btn-light">Project Details</a>
-        </div>
-    </aside>
-	</section>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services1.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Solution Design</h3>
+                            <p>Creation of a design using the optium Technology</p>
+                        </div>
+                    </div>
+                </div>
 
-	<!-- Callout iotlights -->
-	<section id="iotlights">
-    <aside class="callout_iotlights">
-        <div class="text-vertical-center">
-            <h2>The IoT Holiday Lights Project!</h2></br><h3>RGB Leds, Arduino YUN, OpenHAB, Raspberry Pi and Eclipse Paho are mixed and matched to make a holiday lighting system that responds to music and reads my twitter mentions.</h3> 
-			<a href="https://embeddedcode.wordpress.com/the-iot-holiday-lights-project/" class="btn btn-light">Project Details</a>
-        </div>
-    </aside>
-	</section>
-	
-	<!-- Callout airsensor -->
-	<section id="airsensor">
-    <aside class="callout_airsensor">
-        <div class="text-vertical-center">
-            <h2>The Air Quality Sensor Project with Energy Harvester!</h2></br><h3>I designed and built a sensor system that can measure outdoor air quality that can connect to the internet while using the power of the Sun as an energy source</h3> 
-			<a href="https://embeddedcode.wordpress.com/energy-harvesting-air-quality-sensors/" class="btn btn-light">Project Details</a>
-        </div>
-    </aside>
-	</section>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services2.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Rapid Prototyping</h3>
+                            <p>Reducing Time-To-Market for your Product</p>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- Call to Action -->
-    <!--
-	<aside class="call-to-action bg-primary">
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services3.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Design Optimization</h3>
+                            <p>Reducing System costs by redesigning existing solutions</p>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services4.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">System Integration</h3>
+                            <p>Helping bridge gaps in technology</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services5.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">IoT Solutions</h3>
+                            <p>Take advantage of IoT and Big Data in your business</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="images/services/services6.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Growth Hacking</h3>
+                            <p>Maximizing exposure of your brand using the Internet</p>
+                        </div>
+                    </div>
+                </div>                                                
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+    <section id="content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                <div class="col-xs-12 col-sm-8 wow fadeInDown">
+                   <div class="tab-wrap"> 
+                        <div class="media">
+                            <div class="parrent pull-left">
+                                <ul class="nav nav-tabs nav-stacked">
+                                    <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Hardware Design</a></li>
+                                    <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Firmware Design</a></li>
+                                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Integration</a></li>
+                                    <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Production Ready</a></li>
+                                    <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Training</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="parrent media-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade" id="tab1">
+                                        <div class="media">
+                                           <div class="pull-left">
+                                                <img class="img-responsive" src="images/tab2.png">
+                                            </div>
+                                            <div class="media-body">
+                                                 <h2>Everything Hardware</h2>
+                                                 <p>From schematics to board design and enclosures to final mechanical drawing, all at a single point. An all in one protying service that works.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                     <div class="tab-pane fade active in" id="tab2">
+                                        <div class="media">
+                                           <div class="pull-left">
+                                                <img class="img-responsive" src="images/tab1.png">
+                                            </div>
+                                            <div class="media-body">
+                                                 <h2>Embedded Code that works.</h2>
+                                                 <p>Complete firmware development with documentation for C,C++ and even assembly if needed. Everything is reusable making your investment long standing.
+                                                 </p>
+                                            </div>
+                                        </div>
+                                     </div>
+
+                                     <div class="tab-pane fade" id="tab3">
+                                        <p>Combine hardware and software from different vendors to make it work for you. Integration with documenation on how to make it work in the field. It is impossible to have everytype of skill under one house so let us take care of the complicated stuff. Getting it to work is my job.</p>
+                                     </div>
+                                     
+                                     <div class="tab-pane fade" id="tab4">
+                                        <p>Getting a product on the assmebly line in an efficient manner makes the differnce for your production efficiency. Get the most out of your assembly line and let me help you optimize your design and production system to make the most out of everyday.</p>
+                                     </div>
+
+                                     <div class="tab-pane fade" id="tab5">
+                                        <p>I can help train your workforce to be more organized and get the most out of their day. Every minute counts and I can help you count every minute effortlessly. An organized team is a happier team and it becomes easier to find issues. I can also help your team learn new skills and improve their problem solving skills. Get IT done better.</p>
+                                     </div>
+                                </div> <!--/.tab-content-->  
+                            </div> <!--/.media-body--> 
+                        </div> <!--/.media-->     
+                    </div><!--/.tab-wrap-->               
+                </div><!--/.col-sm-6-->
+<!--
+                <div class="col-xs-12 col-sm-4 wow fadeInDown">
+                    <div class="testimonial">
+                        <h2>Testimonials</h2>
+                         <div class="media testimonial-inner">
+                            <div class="pull-left">
+                                <img class="img-responsive img-circle" src="images/testimonials1.png">
+                            </div>
+                            <div class="media-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                <span><strong>-John Doe/</strong> Director of corlate.com</span>
+                            </div>
+                         </div>
+
+                         <div class="media testimonial-inner">
+                            <div class="pull-left">
+                                <img class="img-responsive img-circle" src="images/testimonials1.png">
+                            </div>
+                            <div class="media-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                <span><strong>-John Doe/</strong> Director of corlate.com</span>
+                            </div>
+                         </div>
+
+                    </div>
+                </div>
+
+            </div> --> <!--/.row-->
+       </div> <!--/.container-->
+    </section> <!--/#content-->
+
+    <section id="partner">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>My Clients</h2>
+                <p class="lead">I am working on getting releases from previous employers to add them here. Stay Tuned. :) </p>
+            </div>    
+<!--
+            <div class="partners">
+                <ul>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
+                </ul>
+            </div> -->       
+        </div><!--/.container-->
+    </section><!--/#partner-->
+
+    <section id="conatcat-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="pull-left">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2>Have a question or need a custom quote?</h2>
+                            <p>You are welcome to get in touch with me by sending an email to er.inderpreet[at]gmail.com. I can usually respond withing one working day and we can move from there.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </aside>
-	-->
-    <!-- Map -->
-	<!--
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54352.17895063901!2d74.87012029999998!3d31.633544149999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0xeea2605bee84ef7d!2sAmritsar%2C+Punjab!5e0!3m2!1sen!2sin!4v1421223153563"></iframe>
-        <br />
-        <small>
-            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54352.17895063901!2d74.87012029999998!3d31.633544149999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0xeea2605bee84ef7d!2sAmritsar%2C+Punjab!5e0!3m2!1sen!2sin!4v1421223153563"></a>
-        </small>
-        </iframe>
-    </section>
-	-->
-    <!-- Footer -->
-    <footer id="links">
+        </div><!--/.container-->    
+    </section><!--/#conatcat-info-->
+
+    <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>The Embedded Code</strong>
-                    </h4>
-					<!-- 
+                    <!-- <h4><strong>The Embedded Code</strong>
+                    </h4><-->
+                    <!-- 
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (xxx) xxx-xxxx</li>
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a> 
                         </li> 
                     </ul>
-					-->
+                    -->
                     <br>
                     <ul class="list-inline">
                         <li>
                             <a href="https://twitter.com/ip_v1"><i class="fa fa-twitter fa-fw fa-3x"></i></br>Twitter</a>
                         </li>
-						<li>
+                        <li>
                             <a href="https://google.com/+InderpreetSingh"><i class="fa fa-google-plus fa-fw fa-3x"></i></br>G Plus</a>
                         </li>
-						<li>
+                        <li>
                             <a href="https://embeddedcode.wordpress.com"><i class="fa fa-wordpress fa-fw fa-3x"></i></br>Blog</a>
                         </li>
-						<li>
+                        <li>
                             <a href="https://facebook.com/dr.inderpreet"><i class="fa fa-facebook fa-fw fa-3x"></i></br>Facebook</a>
                         </li>
                         <li>
                             <a href="https://www.youtube.com/channel/UC7b4575dpP5x8SJIawTpyQQ"><i class="fa fa-youtube fa-fw fa-3x"></i></br>YouTube</a>
                         </li>
-						<li>
-							<a href="http://element14.com/community/people/ipv1"><i class="fa fa-newspaper-o fa-fw fa-3x"></i></br>Element14</a>
-						</li>
+                        <li>
+                            <a href="http://element14.com/community/people/ipv1"><i class="fa fa-newspaper-o fa-fw fa-3x"></i></br>Element14</a>
+                        </li>
                         <li>
                             <a href="https://instructables.com/member/ipv1"><i class="fa fa-pencil fa-fw fa-3x"></i></br>Instructables</a>
-                        </li>						
+                        </li>                       
                     </ul>
+                    <!--
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Inderpreet Singh 2015</p>
+                    -->
+                </br>
+                </div>
+
+
+                <div class="col-sm-6">
+                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer><!--/#footer-->
 
-    <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
-
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
 </body>
-
 </html>
